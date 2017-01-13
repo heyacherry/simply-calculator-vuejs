@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+	<title>Vue Calculator</title>
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+    <meta name="author" content="CaiYiLiang(github)">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <header>
+    	<h1>Calculator</h1>
+    	<span class="author">BY <a href="https://www.freecodecamp.com/caiyiliang" target="_blank">CaiYiLiang</a></span>
+    </header>
+    <section class="calculator" id="calculator">
+    	<div class="calculator-border">
+	    	<div class="calculator-display">
+	    		<div class="calculator-formula" v-cloak>{{ formula }}</div>
+	    		<div class="calculator-result" v-cloak>{{ result }}</div>
+	    	</div>
+            
+            <div class="calculator-items">
+                <div class="calculator-row-1">
+		    	<div class="calculator-item" @click="drop()">←</div>
+		    	<div class="calculator-item" @click="cleanResult()">CE</div>
+		    	<div class="calculator-item" @click="cleanAll()">C</div>
+		    	<div class="calculator-item" @click="toggle()">±</div>
+		    	<div class="calculator-item" @click="square()">√</div>
+                </div>
+                
+                <div class="calculator-row-2">
+		    	<div class="calculator-item" @click="operate(7)">7</div>
+		    	<div class="calculator-item" @click="operate(8)">8</div>
+		    	<div class="calculator-item" @click="operate(9)">9</div>
+		    	<div class="calculator-item" @click="operate('/')">/</div>
+		    	<div class="calculator-item" @click="operate('%')">%</div>
+		    	</div>
+
+                <div class="calculator-row-3">
+		    	<div class="calculator-item" @click="operate(4)">4</div>
+		    	<div class="calculator-item" @click="operate(5)">5</div>
+		    	<div class="calculator-item" @click="operate(6)">6</div>
+		    	<div class="calculator-item" @click="operate('*')">*</div>
+		    	<div class="calculator-item" @click="devided()">1/x</div>
+		    	</div>
+                
+                <div class="calculator-row-4">
+		    	<div class="calculator-item" @click="operate(1)">1</div>
+		    	<div class="calculator-item" @click="operate(2)">2</div>
+		    	<div class="calculator-item" @click="operate(3)">3</div>
+		    	<div class="calculator-item" @click="operate('-')">-</div>
+		    	<div class="calculator-item" @click="operate('+')">+</div>
+		    	</div>
+                
+                <div class="calculator-row-5">
+		    	<div class="calculator-item" @click="operate(0)">0</div>
+		    	<div class="calculator-item" @click="operate('.')">.</div>
+		    	<div class="calculator-item" @click="equal()">=</div>
+		    	</div>
+    		</div>
+    	</div>
+    </section>
+    
+    <script src="https://unpkg.com/vue/dist/vue.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+</html>

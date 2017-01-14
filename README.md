@@ -4,7 +4,7 @@
 >A simply vue-calculator built by vue2.0 + vue-cli (webpack- simple) , a good way to get through vue.js , webpack and vue-loader.
 
 #demo
-![calculator.vuejs-demo](calculator_vuejs.gif "calculator.vuejs-demo")
+<img src="./calculator_vuejs.gif" alt="calculator.vuejs-demo" width="360px" height="auto">
 
 ## Build Setup
 

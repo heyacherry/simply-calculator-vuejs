@@ -1,7 +1,7 @@
 # vue-webpack-calculator
 
 > 用vue.js实现简易计算器<br>
->A simply vue-calculator built by vue2.0 + vue-cli (webpack- simple) , fast way to get through vue.js , vue-loader and webpack .
+>A simply vue-calculator built by vue2.0 + vue-cli (webpack- simple) ,<br> fast way to get through vue.js , vue-loader and webpack .
 
 # demo
 <img src="./calculator_vuejs.gif" alt="calculator.vuejs-demo" width="360px" height="auto">

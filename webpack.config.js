@@ -40,7 +40,9 @@ module.exports = {
   },
   resolve: {
     alias: {
+      components: './components',
       'vue$': 'vue/dist/vue.common.js'
+
     }
   },
   devServer: {

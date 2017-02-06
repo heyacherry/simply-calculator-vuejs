@@ -4,7 +4,9 @@
 >A simply vue-calculator built by vue2.0 + vue-cli (webpack- simple) ,<br> fast way to get through vue.js , vue-loader and webpack .
 <br>
 
-Grade that this demo has been merged into the project :<a href="https://github.com/vuejs/awesome-vue">awesome-vue</a>:yum:
+Grade that this demo has been merged into the project :<a href="https://github.com/vuejs/awesome-vue">awesome-vue</a>:yum:<br>
+And here is another vue demo <a href="https://github.com/CaiYiLiang/vue-demos/tree/master/wikipediaViewer-vuejs">wikipediaViewer-vuejs</a> ,which is also merged into the project :<a href="https://github.com/vuejs/awesome-vue">awesome-vue</a>:yum:
+
 
 # demo
 <img src="./calculator_vuejs.gif" alt="calculator.vuejs-demo" width="360px" height="auto">

@@ -27,10 +27,9 @@ npm run build
 For detailed explanation on how things work, consult the [docs for vue-loader](http://vuejs.github.io/vue-loader).
 <br>
 
-#todo item
+## todo item
 - add keycode eventListener
 <br>
 
 ~(≧▽≦)/~  如果有那么一丁点儿喜欢 请随手🌟~(≧▽≦)/~啦啦啦 <br>
-
-~(≧▽≦)/~  Encourage me a start🌟 if you like it~(≧▽≦)/
+ヾ(o◕∀◕)ﾉヾ Encourage me a start🌟 if you like itヾ(o◕∀◕)ﾉヾ 

@@ -31,5 +31,5 @@ For detailed explanation on how things work, consult the [docs for vue-loader](h
 - add keycode eventListener
 <br>
 
-~(≧▽≦)/~  如果有那么一丁点儿喜欢 请随手🌟~(≧▽≦)/~啦啦啦 <br>
+ヾ(o◕∀◕)ﾉヾ 如果有那么一丁点儿喜欢 请随手🌟~(≧▽≦)/~啦啦啦 <br>
 ヾ(o◕∀◕)ﾉヾ Encourage me a start🌟 if you like itヾ(o◕∀◕)ﾉヾ 
